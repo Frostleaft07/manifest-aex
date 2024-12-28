@@ -4,6 +4,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="gw"
+           fetch="https://github.com/Frostleaft07" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -104,7 +107,7 @@
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aex" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aex" />
   <project path="tools/extract-utils" name="platform_tools_extract-utils" remote="aex" />
-  <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
+  <project path="vendor/aosp" name="platform_vendor_aosp" remote="gw" revision="11.x" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aex"  />
   <project path="libcore" name="platform_libcore" remote="aex" />
 
