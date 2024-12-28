@@ -79,7 +79,7 @@
   <project path="packages/apps/ManagedProvisioning" name="platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/PotatoPlugins" name="platform_packages_apps_Plugins" remote="aex" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="gw" revision="11.x" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aex" />
   <project path="packages/apps/SoftAPManager" name="platform_packages_apps_SoftAPManager" remote="aex" />
